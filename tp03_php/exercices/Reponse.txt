@@ -1,0 +1,25 @@
+Act1:
+	Question1:
+	=>.Identifier et de nommer les données d'un élément  (principalement dans un formulaire) 
+	   pour qu'elles puissent être exploitées après leur envoi ou manipulées.
+	  .L'attribut name sert de clé de référence.
+	  .Sans l'attribut name, la valeur saisie par l'utilisateur dans ce champ ne sera jamais envoyée.
+	
+	Question2:
+	=>Chaque champ possède un name différent pour que le destinataire puisse distinguer et identifier
+	  séparément chaque donnée envoyée.
+	Question3:
+	=>Puisque la balise <form> ne possède aucun attribut le navigateur applique des comportements par défaut :
+      .Il renvoie les données sur la page actuelle.
+	  .Il utilise la méthode GET. 
+	Question4:
+	=>L'URL qui apparaît est l'URL de la page actuelle complétée par les données du formulaire 
+	  juste après un point d'interrogation (?).
+Act2:
+	Question1:
+	=>les données apparaissent dans L'URL.
+	Question2:
+	=>Parce que GET utilise la partie de l'URL appelée chaîne de requête (query string) 
+	  pour transmettre les données.
+	Question3:
+	=>le programme affichier Nom et Prenom.
